@@ -86,7 +86,8 @@ if ($CompressMethod -ieq '7z') {
 
 #Install the Devops extension
 #Write-Host "=== Install DevOps Extension"
-az extension add --name 'azure-devops'
+#
+#az extension add --name 'azure-devops'
 
 #Set this environment variable with a PAT will 'auto login' when using 'az devops' commands
 $env:AZURE_DEVOPS_EXT_PAT = $PAT
